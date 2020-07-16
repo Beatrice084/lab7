@@ -9,16 +9,16 @@ import { Pagination, PaginationItem, PaginationLink, InputGroup, Row, Col, Form,
 const BookNow = (props) => {
   return (
     <div className='outsideDiv'>
-        <div className='card'>
+        <div>
             <i className="fa fa-calendar icon" aria-hidden="true"></i>
             <p className="dateText">Pick a date</p>
             <FormGroup>
                 <Input
-                type="date"
-                name="date"
-                id="exampleDate"
-                placeholder="date placeholder"
-                />
+                    type="date"
+                    name="date"
+                    id="exampleDate"
+                    placeholder="date placeholder"
+                    />
             </FormGroup>
         </div>
         <div>

@@ -33,6 +33,7 @@ function App() {
               <BookNow/>
             </ModalBody>
             <ModalFooter>
+            <Button color="primary" onClick={toggle}>Register</Button>
             <Button color="secondary" onClick={toggle}>Close</Button>
             </ModalFooter>
         </Modal>
