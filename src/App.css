@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.titleImage {
+  width: 100%;
+}
+
+.titleImageText {
+  top: 20px;
+  left: 50px;
+  position: absolute
+}
+
+.titleButton {
+  top: 70px;
+  left: 50px;
+  position: absolute
+}
+
+.titleContainer{
+  position: relative;
+  text-align: center;
+}
+
+.AddressText {
+  top: 55px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.AddressButton {
+  top: 125px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

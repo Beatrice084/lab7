@@ -1,0 +1,22 @@
+.dateText {
+    display: inline-block;
+    color: black;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 5px;
+    color: black;
+}
+
+.flag {
+    margin-right: 5px;
+    color: darkslategrey;
+    height: 25px;
+    width: 25px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
