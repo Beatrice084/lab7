@@ -1,52 +1,56 @@
 import React from 'react';
 import { Table } from 'reactstrap';
+import {useTranslation} from "react-i18next";
+
 
 // Source https://reactstrap.github.io/components/table/
 const MembershipTable = (props) => {
+  const [t, i18n] = useTranslation('common');
+
   return (
     <Table>
       <thead>
         <tr>
-          <th>Full Season Membership</th>
+          <th>{t('membershipTable.title')}</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>9 holes</td>
-          <td>$500.00</td>
+          <td>{t('membershipTable.9')}</td>
+          <td>{t('membershipTable.500')}</td>
         </tr>
         <tr>
-          <td>9 Holes with Cart</td>
-          <td>$600.00</td>
+          <td>{t('membershipTable.9Cart')}</td>
+          <td>{t('membershipTable.600')}</td>
         </tr>
         <tr>
-          <td>18 holes</td>
-          <td>$700.00</td>
+          <td>{t('membershipTable.18')}</td>
+          <td>{t('membershipTable.700')}</td>
         </tr>
         <tr>
-          <td>18 Holes with Cart</td>
-          <td>$850.00</td>
+          <td>{t('membershipTable.18Cart')}</td>
+          <td>{t('membershipTable.850')}</td>
         </tr>
       </tbody>
       <thead>
         <tr>
-          <th>Special Memberships (18 Holes Only)</th>
+          <th>{t('membershipTable.special')}</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Children (10 years and under)</td>
-          <td>$250.00</td>
+          <td>{t('membershipTable.title')}</td>
+          <td>{t('membershipTable.250')}</td>
         </tr>
         <tr>
-          <td>Junior (under 18)</td>
-          <td>$350.00</td>
+          <td>{t('membershipTable.junior')}</td>
+          <td>{t('membershipTable.350')}</td>
         </tr>
         <tr>
-          <td>Seniors (55+)</td>
-          <td>$500.00</td>
+          <td>{t('membershipTable.senior')}</td>
+          <td>{t('membershipTable.550')}</td>
         </tr>
       </tbody>
     </Table>

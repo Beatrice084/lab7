@@ -1,92 +1,96 @@
 import React from 'react';
 import { Table } from 'reactstrap';
+import {useTranslation} from "react-i18next";
+
 
 // Source https://reactstrap.github.io/components/tables/
 const RatesTable = (props) => {
+  const [t, i18n] = useTranslation('common');
+
   return (
     <Table>
       <thead>
         <tr>
-          <th>All Day</th>
+          <th>{t('rateTable.allDay')}</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>9 holes</td>
-          <td>$50.00</td>
+          <td>{t('rateTable.9')}</td>
+          <td>{t('rateTable.50')}</td>
         </tr>
         <tr>
-          <td>18 holes</td>
-          <td>$80.00</td>
+          <td>{t('rateTable.18')}</td>
+          <td>{t('rateTable.80')}</td>
         </tr>
       </tbody>
       <thead>
         <tr>
-          <th>Carts</th>
+          <th>{t('rateTable.carts')}</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Pull Cart</td>
-          <td>$10.00</td>
+          <td>{t('rateTable.pull')}</td>
+          <td>{t('rateTable.10')}</td>
         </tr>
         <tr>
-          <td>Power Cart</td>
-          <td>$25.00</td>
+          <td>{t('rateTable.power')}</td>
+          <td>{t('rateTable.25')}</td>
         </tr>
       </tbody>
       <thead>
         <tr>
-          <th>Open to 1pm</th>
+          <th>{t('rateTable.open')}</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>9 holes</td>
-          <td>$30.00</td>
+          <td>{t('rateTable.9')}</td>
+          <td>{t('rateTable.30')}</td>
         </tr>
         <tr>
-          <td>18 holes</td>
-          <td>$40.00</td>
+          <td>{t('rateTable.18')}</td>
+          <td>{t('rateTable.40')}</td>
         </tr>
       </tbody>
       <thead>
         <tr>
-          <th>1pm to Close</th>
+          <th>{t('rateTable.close')}</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>9 holes</td>
-          <td>$25.00</td>
+          <td>{t('rateTable.9')}</td>
+          <td>{t('rateTable.25')}</td>
         </tr>
         <tr>
-          <td>18 holes</td>
-          <td>$35.00</td>
+          <td>{t('rateTable.18')}</td>
+          <td>{t('rateTable.35')}</td>
         </tr>
       </tbody>
       <thead>
         <tr>
-          <th>Special Pricing</th>
+          <th>{t('rateTable.pricing')}</th>
           <th></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Children (10 years and under)</td>
-          <td>$20.00</td>
+          <td>{t('rateTable.children')}</td>
+          <td>{t('rateTable.20')}</td>
         </tr>
         <tr>
-          <td>Juniors (under 18)</td>
-          <td>$22.00</td>
+          <td>{t('rateTable.juniors')}</td>
+          <td>{t('rateTable.22')}</td>
         </tr>
         <tr>
-          <td>Senior (55+)</td>
-          <td>$22.00</td>
+          <td>{t('rateTable.senior')}</td>
+          <td>{t('rateTable.22')}</td>
         </tr>
       </tbody>
     </Table>

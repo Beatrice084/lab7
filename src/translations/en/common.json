@@ -1,0 +1,108 @@
+{
+    "welcome": {
+        "title": "Welcome to {{framework}}",
+        "welcomeMessage": "Welcome to Aconitum Golf Course!"
+    },
+    "navbar": {
+        "courseName": "Aconitum Golf",
+        "home" : "Home",
+        "membership": "Membership",
+        "rates": "Rates",
+        "contact": "Contact",
+        "book": "Book a tee time",
+        "language": "Change Language",
+        "english": "English",
+        "french": "français"
+    },
+    "bookNowButton": {
+        "now": "Book Now!",
+        "book": "Book a tee time",
+        "register": "Register",
+        "close": "Close"
+    },
+    "threeCards": {
+        "rates": "Rates",
+        "rateText": "We have affordable daily rates for visitors of all ages.",
+        "close": "Close",
+        "membership": "Membership",
+        "membershipText": "We offer yearly memberships for golfers who like to play everyday.",
+        "events": "Events",
+        "eventText": "See our event calendar for upcoming events!"
+    },
+    "directions": {
+        "title": "Written Directions",
+        "toronto": "From Toronto",
+        "torontoText": "Take Hwy 401 E to Brighton (Exit 509). Head north on County Rd 30 to County Rd 29 (approx 17 km). Turn left onto County Rd 29. Travel west on County Rd 29 for about 1 km to the golf course.",
+        "kingston": "From Kingston",
+        "kingstonText": "Take Hwy 401 W to Brighton (Exit 509). Head north on County Rd 30 to County Rd 29 (approx 17 km). Turn left onto County Rd 29. Travel west on County Rd 29 for about 1 km to the golf course.",
+        "highway": "From Highway 7",
+        "highwayText": "Follow signs to I-40 East to Nashville. Once on I-40 East, go North on Whitten Road (Exit 14) for 5 miles. Turn left on St. Elmo and go 1 mile to Altruria Road. Turn Right on Altruria and look for Quail Ridge 0.5 miles on the left."
+    },
+    "rateTable": {
+        "allDay": "All Day",
+        "9": "9 holes",
+        "50": "$50.00",
+        "18": "18 holes",
+        "80": "$80.00",
+        "carts": "Carts",
+        "pull": "Pull Cart",
+        "power": "Power Cart",
+        "10": "$10.00",
+        "open": "Open to 1pm",
+        "30": "$30.00",
+        "40": "$40.00",
+        "close": "1pm to Close",
+        "25": "$25.00",
+        "35": "$35.00",
+        "pricing": "Special Pricing",
+        "children": "Children (10 years and under)",
+        "20": "$20.00",
+        "juniors": "Juniors (under 18)",
+        "22": "$22.00",
+        "senior": "Senior (55+)"
+    },
+    "membershipTable": {
+        "title": "Full Season Membership",
+        "9": "9 holes",
+        "500": "$500.00",
+        "9Cart": "9 Holes with Cart",
+        "600": "$600.00",
+        "18": "18 holes",
+        "700": "$700.00",
+        "18Cart": "Special Memberships (18 Holes Only)",
+        "850": "$850.00",
+        "special": "Special Pricing",
+        "children": "Children (10 years and under)",
+        "250": "$250.00",
+        "juniors": "Juniors (under 18)",
+        "350": "$350.00",
+        "senior": "Senior (55+)",
+        "550": "$550.00"
+    },
+    "footer": {
+        "hoo": "Hours of Operation",
+        "m_f": "Monday-Friday: 8am-Dusk",
+        "sat": "Saturday: 7am-Dusk",
+        "sun": "Sunday: 7:30am-Dusk",
+        "contact": "Contact",
+        "facebook": "Facebook Page"
+    },
+    "bookNow": {
+        "date": "Pick a date",
+        "timePick": "Pick a time",
+        "time": "Time",
+        "holes": "Pick number of holes",
+        "people": "Pick number of people",
+        "carts": "Pick number of carts",
+        "credit": "Enter your credit card information to reserve your tee time",
+        "name": "Full name (on the card)",
+        "number": "Card number",
+        "exp": "Expiration",
+        "CVV": "CVV"
+    },
+    "app": {
+        "welcome": "Welcome to Aconitum Golf Course!",
+        "address": "700 GreenWay Road, Ottawa, ON",
+        "icons": "Icons made by"
+    }
+}

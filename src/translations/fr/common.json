@@ -1,0 +1,108 @@
+{
+    "welcome": {
+        "title": "Bienvenue bei {{framework}}",
+        "welcomeMessage": "Bienvenue to Aconitum Golf Course!"
+    },
+    "navbar": {
+        "courseName": "Golf Aconitum",
+        "home" : "Maison",
+        "membership": "Adhésion",
+        "rates": "Taux",
+        "contact": "Contact",
+        "book": "Réservez une heure de départ",
+        "language": "Changer de langue",
+        "english": "English",
+        "french": "français"
+    },
+    "bookNowButton": {
+        "now": "Reserve maintenant !",
+        "book": "Réservez une heure de départ",
+        "register": "S'inscrire",
+        "close": "Fermer"
+    },
+    "threeCards": {
+        "rates": "Taux",
+        "rateText": "Nous proposons des tarifs journaliers abordables pour les visiteurs de tous âges.",
+        "close": "Fermer",
+        "membership": "Adhésion",
+        "membershipText": "Nous offrons des abonnements annuels aux golfeurs qui aiment jouer tous les jours.",
+        "events": "Événements",
+        "eventText": "Consultez notre calendrier des événements pour les événements à venir!"
+    },
+    "directions": {
+        "title": "Instructions écrites",
+        "toronto": "De Toronto",
+        "torontoText": "Prenez l'autoroute 401 E jusqu'à Brighton (sortie 509). Dirigez-vous vers le nord sur County Road 30 jusqu'à County Rd 29 (environ 17 km). Tournez à gauche sur County Rd 29. Continuez vers l'ouest sur County Rd 29 pendant environ 1 km jusqu'au terrain de golf.",
+        "kingston": "De Kingston",
+        "kingstonText": "Prenez l'autoroute 401 W jusqu'à Brighton (sortie 509). Dirigez-vous vers le nord sur County Road 30 jusqu'à County Rd 29 (environ 17 km). Tournez à gauche sur County Rd 29. Continuez vers l'ouest sur County Rd 29 pendant environ 1 km jusqu'au terrain de golf.",
+        "highway": "De Highway 7",
+        "highwayText": "Suivez les panneaux indiquant la I-40 East jusqu'à Nashville. Une fois sur la I-40 East, allez vers le nord sur Whitten Road (sortie 14) pendant 5 miles. Tournez à gauche sur St. Elmo et parcourez 1 mile jusqu'à Altruria Road. Tournez à droite sur Altruria et recherchez Quail Ridge à 0,5 km sur la gauche."
+    },
+    "rateTable": {
+        "allDay": "Toute la journée",
+        "9": "9 trous",
+        "50": "50.00 $",
+        "18": "18 trous",
+        "80": "80.00 $",
+        "carts": "Chariots",
+        "pull": "Chariot de traction",
+        "power": "Chariot d'alimentation",
+        "10": "10.00 $",
+        "open": "Ouvert jusqu'à 13h",
+        "30": "30.00 $",
+        "40": "40.00 $",
+        "close": "13h pour fermer",
+        "25": "25.00 $",
+        "35": "25.00 $",
+        "pricing": "Special Pricing",
+        "children": "Children (10 years and under)",
+        "20": "20.00 $",
+        "juniors": "Juniors (under 18)",
+        "22": "22.00 $",
+        "senior": "Senior (55+)"
+    },
+    "membershipTable": {
+        "title": "Abonnement saison complète",
+        "9": "9 trous",
+        "500": "500,00 $",
+        "9Cart": "9 trous avec chariot",
+        "600": "600,00 $",
+        "18": "18 trous",
+        "700": "700,00 $",
+        "18Cart": "Adhésions spéciales (18 trous uniquement)",
+        "850": "850,00 $",
+        "special": "Prix spécial",
+        "children": "Enfants (10 ans et moins)",
+        "250": "250,00 $",
+        "juniors": "Juniors (moins de 18 ans)",
+        "350": "350,00 $",
+        "senior": "Senior (55+)",
+        "550": "550,00 $"
+    },
+    "footer": {
+        "hoo": "Heures d'ouverture",
+        "m_f": "Lundi-vendredi: 8h-crépuscule",
+        "sat": "Samedi: 7h-crépuscule",
+        "sun": "Dimanche: 7h30-crépuscule",
+        "contact": "Contact",
+        "facebook": "Page Facebook"
+    },
+    "bookNow": {
+        "date": "Choisissez une date",
+        "timePick": "Choisissez une heure",
+        "time": "temps",
+        "holes": "Choisir le nombre de trous",
+        "people": "Choisissez le nombre de personnes",
+        "carts": "Choisir le nombre de paniers",
+        "credit": "Entrez les informations de votre carte de crédit pour réserver votre heure de départ",
+        "name": "Nom complet (sur la carte)",
+        "number": "Numéro de carte",
+        "exp": "Expiration",
+        "CVV": "CVV"
+    },
+    "app":  {
+        "welcome": "Bienvenue sur le parcours de golf Aconitum!",
+        "address": "700, chemin GreenWay, Ottawa, ON",
+        "icons": "Icônes créées par"
+    }
+}
